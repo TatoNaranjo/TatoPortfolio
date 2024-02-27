@@ -1,0 +1,124 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Curriculum Vitae" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Perfil Profesional</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    <text>
+      <b>Ingeniero de Software</b> con experiencia en desarrollo FullStack, utilizando <b>metodologías
+        ágiles</b>. Historial comprobado en la <b>resolución eficiente de problemas</b> y <b></b>rápida adaptación
+        a nuevas tecnologías</b>. Interesado en contribuir al éxito de proyectos innovadores en áreas
+        colaborativas mediante mi experiencia y habilidades técnicas.
+    </text>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Educación</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Ingeniería de Sistemas y Computación"
+      subtitle="Agosto 2021 - Presente, en Universidad de Cundinamarca, Facatativá, Colombia"
+    />
+    <TimeLineElement
+      title="Miembro del Programa Oracle Next Education"
+      subtitle="Febrero 2024 - Presente, Virtualmente, Subachoque, Colombia"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiencia</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+    title="Estudiante de Ingeniería de Sistemas y Computación"
+    subtitle="2021 - Presente, en Universidad de Cundinamarca, Facatativá, Colombia"
+  >
+  Actualmente estoy realizando mi formación académica como Ingeniero de Sistemas en
+  la Universidad de Cundinamarca, donde he adquirido habilidades en diversos aspectos
+  del desarrollo de software, incluyendo:
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Desarrollo y consumo de APIs con arquitectura REST con Express.</li>
+    <li>Implementación de aplicaciones bajo el paradigma de programación orientada a
+      objetos.</li>
+      <li>Creación de componentes Front-End reutilizables para aplicaciones.</li>
+      <li>Implementación de procesos de integración continua y despliegue continuo.</li>
+      <li>Gestión de control de código fuente y versionamiento en cada proyecto.</li>
+  </ul>
+  
+  
+  
+  
+  
+  
+  </TimeLineElement>
+
+    <TimeLineElement
+      title="Tutor de Algoritmos y Programador Competitivo"
+      subtitle="2022 - Presente, en Universidad de Cundinamarca, Facatativá, Colombia"
+    >
+    <ul class="list-disc mx-6 mb-10 grid gap-2">
+      <li>
+        Imparto tutorías de programación competitiva en C++, Python y Java, brindando
+        orientación y apoyo a estudiantes para mejorar sus habilidades en algoritmos y
+        estructuras de datos.
+      </li>
+      <li>
+        Me mantengo actualizado mediante investigaciones exhaustivas y la revisión
+        constante de documentación técnica relacionada con algoritmos y estructuras
+        de datos, garantizando la aplicación de las mejores prácticas en la resolución de
+        problemas.
+      </li>
+      <li>
+        Actúo como participante activo en competencias tanto nacionales como
+        internacionales, como ICPC (International Collegiate Programming Contest), CCPL
+        (Colombian Collegiate Programming League), Codeforces Divs y RPC, colaborando
+        con equipos para abordar desafíos de complejidad variada y perfeccionar mis
+        habilidades en lógica y programación competitiva.
+      </li>
+    </ul>
+    
+    </TimeLineElement>
+
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certificaciones</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.linkedin.com/in/santiago-naranjo-herrera-a43429260/details/certifications/1705755676794/single-media-viewer/?profileId=ACoAAEAilJMBCWODm3mFNYPjgp6430rGI4Ls1v0" target="_blank"> Participación en la XXXVII Maratón Nacional de Programación Competitiva ACIS REDIS 2023</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Habilidades</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6 ">
+    <li>Trabajo En Equipo</li>
+    <li>Autoaprendizaje</li>
+    <li>Desarrollo Front-End</li>
+    <li>Desarrollo Back-End</li>
+    <li>Resolución de Problemas</li>
+    <li>Conocimiento en Interfaces de Usuario</li>
+    <li>Lógica de Software</li>
+    <li>Investigación Técnica</li>
+  </ul>
+
+  <div class="my-5">
+    <div class="text-3xl w-full font-bold">Idiomas</div>
+  </div>
+  <ul class="list-disc mx-6">
+    <li>Español - Idioma Nativo</li>
+    <li>Inglés - Nivel B2</li>
+  </ul>
+</BaseLayout>

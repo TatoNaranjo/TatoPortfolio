@@ -1,0 +1,56 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import ThemeChanger from "../components/ThemeChanger.astro";
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">¿Que tal!? 👋</div>
+    <div class="text-5xl font-bold">Soy Santiago Naranjo Herrera</div>
+    <div class="text-3xl py-3 font-bold">Desarrollador de Software FullStack</div>
+    <div class="py-2">
+      <text class="text-lg">
+        <b>Ingeniero de Software</b> con experiencia en desarrollo FullStack, utilizando <b>metodologías
+          ágiles</b>. Historial comprobado en la <b>resolución eficiente de problemas</b> y <b></b>rápida adaptación
+          a nuevas tecnologías</b>. Interesado en contribuir al éxito de proyectos innovadores en áreas
+          colaborativas mediante mi experiencia y habilidades técnicas.
+      </text>
+    </div>
+    <div class="mt-8">
+      <a class="btn" href="https://twitter.com/tatonaranjo4" target="_blank"> Hablemos!</a>
+      <ThemeChanger/>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Mi Últimos Proyectos {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 1"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 2"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Página para el seguimiento de pacientes en una veterinaria"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="React"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Mi Blog: LogDev</div>
+  </div>
+</BaseLayout>
